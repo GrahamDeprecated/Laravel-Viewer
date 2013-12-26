@@ -52,9 +52,10 @@ class Viewer
      *
      * @param  string  $view
      * @param  array   $data
+     * @param  string  $type
      * @return \Illuminate\View\View
      */
-    public function make($view, array $data = array())
+    public function make($view, array $data = array(), $type = 'default')
     {
         return $this->view->make($view, $data);
     }
