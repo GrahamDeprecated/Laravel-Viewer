@@ -77,6 +77,8 @@ class ViewerServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return array('viewer');
+        return array(
+            'viewer'
+        );
     }
 }
