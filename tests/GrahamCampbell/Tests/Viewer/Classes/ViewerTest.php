@@ -59,6 +59,7 @@ class ViewerTest extends PHPUnit_Framework_TestCase
         $name = 'test';
         $path = __DIR__;
         $data = array('example' => 'qwerty');
+
         return new View($view, $engine, $name, $path, $data);
     }
 }
