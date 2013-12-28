@@ -2,7 +2,7 @@
     "name": "graham-campbell/viewer",
     "description": "Viewer Is A View Workaround For Laravel 4.1",
     "keywords": ["laravel", "framework", "view", "workaround", "viewer", "Viewer", "Laravel Viewer", "Laravel-Viewer", "Graham Campbell", "GrahamCampbell"],
-    "license": "Apache License 2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Graham Campbell",
