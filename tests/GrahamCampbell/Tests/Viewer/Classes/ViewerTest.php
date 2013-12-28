@@ -35,7 +35,7 @@ class ViewerTest extends PHPUnit_Framework_TestCase
     {
         $viewer = $this->getViewer();
 
-        $viewer->getView()->shouldRecieve('make')
+        $viewer->getView()->shouldReceive('make')
             ->once()->with('test', array('example' => 'qwerty'));
 
         $return = $viewer->make('test', array('example' => 'qwerty'));
