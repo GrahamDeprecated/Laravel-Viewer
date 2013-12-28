@@ -28,7 +28,7 @@ use GrahamCampbell\Viewer\Classes\Viewer;
  * @license    https://github.com/GrahamCampbell/Laravel-Viewer/blob/develop/LICENSE.md
  * @link       https://github.com/GrahamCampbell/Laravel-Viewer
  */
-class ViewerTest
+class ViewerTest extends PHPUnit_Framework_TestCase
 {
     public function testMake()
     {
