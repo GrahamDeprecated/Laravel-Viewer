@@ -18,6 +18,7 @@ namespace GrahamCampbell\Tests\Viewer\Classes;
 
 use Mockery;
 use PHPUnit_Framework_TestCase;
+use Illuminate\View\View;
 use GrahamCampbell\Viewer\Classes\Viewer;
 
 /**
@@ -34,9 +35,10 @@ class ViewerTest extends PHPUnit_Framework_TestCase
     public function testMake()
     {
         $viewer = $this->getViewer();
+        $view = $this->getView();
 
-        $viewer->getView()->shouldReceive('make')
-            ->once()->with('test', array('example' => 'qwerty'));
+        $viewer->getView()->shouldReceive('make')->once()
+            ->with('test', array('example' => 'qwerty'))->andReturn($view);
 
         $return = $viewer->make('test', array('example' => 'qwerty'));
 
@@ -48,5 +50,15 @@ class ViewerTest extends PHPUnit_Framework_TestCase
         $view = Mockery::mock('Illuminate\View\Environment');
 
         return new Viewer($view);
+    }
+
+    protected function getView()
+    {
+        $view = Mockery::mock('Illuminate\View\Environment');
+        $engine = Mockery::mock('Illuminate\View\Engines\EngineInterface');
+        $name = 'test';
+        $path = __DIR__;
+        $data = array('example' => 'qwerty');
+        return new View($view, $engine, $name, $path, $data);
     }
 }
