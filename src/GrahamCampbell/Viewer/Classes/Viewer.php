@@ -59,4 +59,14 @@ class Viewer
     {
         return $this->view->make($view, $data);
     }
+
+    /**
+     * Return the view instance.
+     *
+     * @return \Illuminate\View\Environment
+     */
+    public function getView()
+    {
+        return $this->view;
+    }
 }
