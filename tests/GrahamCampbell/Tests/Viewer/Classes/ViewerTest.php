@@ -42,7 +42,7 @@ class ViewerTest extends PHPUnit_Framework_TestCase
 
         $return = $viewer->make('test', array('example' => 'qwerty'));
 
-        $this->assertInstanceOf('Illuminate\View\View', $return);
+        $this->assertEquals($return, $view);
     }
 
     protected function getViewer()
