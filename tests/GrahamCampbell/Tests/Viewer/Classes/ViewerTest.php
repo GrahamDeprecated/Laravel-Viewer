@@ -18,7 +18,6 @@ namespace GrahamCampbell\Tests\Viewer\Classes;
 
 use Mockery;
 use PHPUnit_Framework_TestCase;
-use Illuminate\View\View;
 use GrahamCampbell\Viewer\Classes\Viewer;
 
 /**
