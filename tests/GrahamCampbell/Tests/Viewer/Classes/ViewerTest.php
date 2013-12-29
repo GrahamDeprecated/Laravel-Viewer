@@ -35,7 +35,7 @@ class ViewerTest extends PHPUnit_Framework_TestCase
     public function testMake()
     {
         $viewer = $this->getViewer();
-        $view = $this->getView();
+        $view = Mockery::mock('Illuminate\View\View');
 
         $viewer->getView()->shouldReceive('make')->once()
             ->with('test', array('example' => 'qwerty'))->andReturn($view);
@@ -50,16 +50,5 @@ class ViewerTest extends PHPUnit_Framework_TestCase
         $view = Mockery::mock('Illuminate\View\Environment');
 
         return new Viewer($view);
-    }
-
-    protected function getView()
-    {
-        $view = Mockery::mock('Illuminate\View\Environment');
-        $engine = Mockery::mock('Illuminate\View\Engines\EngineInterface');
-        $name = 'test';
-        $path = __DIR__;
-        $data = array('example' => 'qwerty');
-
-        return new View($view, $engine, $name, $path, $data);
     }
 }
