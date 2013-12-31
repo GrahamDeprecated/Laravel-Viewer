@@ -18,7 +18,7 @@ namespace GrahamCampbell\Tests\Viewer\Classes;
 
 use Mockery;
 use GrahamCampbell\Viewer\Classes\Viewer;
-use GrahamCampbell\TestBench\Classes\AbstractLaravelTestCase as TestCase;
+use GrahamCampbell\TestBench\Classes\AbstractTestCase as TestCase;
 
 /**
  * This is the viewer test class.
