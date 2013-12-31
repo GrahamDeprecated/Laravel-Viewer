@@ -41,7 +41,7 @@ class ViewerTest extends AbstractTestCase
 
         $return = $viewer->make('test', array('example' => 'qwerty'));
 
-        $this->assertEquals($return, $view);
+        $this->assertEquals($view, $return);
     }
 
     protected function getViewer()
