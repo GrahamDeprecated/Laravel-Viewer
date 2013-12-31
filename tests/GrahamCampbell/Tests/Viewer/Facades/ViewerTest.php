@@ -16,8 +16,11 @@
 
 namespace GrahamCampbell\Tests\Viewer\Facades;
 
+use GrahamCampbell\Tests\Viewer\AbstractTestCase;
+use GrahamCampbell\TestBench\Traits\FacadeTestCaseTrait;
+
 /**
- * This is the viewer facade test case class.
+ * This is the viewer facade test class.
  *
  * @package    Laravel-Viewer
  * @author     Graham Campbell
@@ -25,8 +28,10 @@ namespace GrahamCampbell\Tests\Viewer\Facades;
  * @license    https://github.com/GrahamCampbell/Laravel-Viewer/blob/develop/LICENSE.md
  * @link       https://github.com/GrahamCampbell/Laravel-Viewer
  */
-class ViewerTest extends AbstractFacadeTestCase
+class ViewerTest extends AbstractTestCase
 {
+    use FacadeTestCaseTrait;
+
     /**
      * Get the facade accessor.
      *
