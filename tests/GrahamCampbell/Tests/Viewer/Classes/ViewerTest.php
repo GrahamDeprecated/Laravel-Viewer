@@ -18,7 +18,7 @@ namespace GrahamCampbell\Tests\Viewer\Classes;
 
 use Mockery;
 use GrahamCampbell\Viewer\Classes\Viewer;
-use GrahamCampbell\TestBench\Classes\AbstractTestCase as TestCase;
+use GrahamCampbell\TestBench\Classes\AbstractTestCase;
 
 /**
  * This is the viewer test class.
@@ -29,7 +29,7 @@ use GrahamCampbell\TestBench\Classes\AbstractTestCase as TestCase;
  * @license    https://github.com/GrahamCampbell/Laravel-Viewer/blob/develop/LICENSE.md
  * @link       https://github.com/GrahamCampbell/Laravel-Viewer
  */
-class ViewerTest extends TestCase
+class ViewerTest extends AbstractTestCase
 {
     public function testMake()
     {
