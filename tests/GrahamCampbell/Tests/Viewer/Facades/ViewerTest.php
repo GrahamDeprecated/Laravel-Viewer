@@ -24,7 +24,7 @@ use GrahamCampbell\TestBench\Traits\FacadeTestCaseTrait;
  *
  * @package    Laravel-Viewer
  * @author     Graham Campbell
- * @copyright  Copyright 2013 Graham Campbell
+ * @copyright  Copyright 2013-2014 Graham Campbell
  * @license    https://github.com/GrahamCampbell/Laravel-Viewer/blob/develop/LICENSE.md
  * @link       https://github.com/GrahamCampbell/Laravel-Viewer
  */
