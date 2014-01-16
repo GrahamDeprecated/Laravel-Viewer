@@ -24,7 +24,7 @@ use Illuminate\Support\ServiceProvider;
  * @package    Laravel-Viewer
  * @author     Graham Campbell
  * @copyright  Copyright 2013-2014 Graham Campbell
- * @license    https://github.com/GrahamCampbell/Laravel-Viewer/blob/develop/LICENSE.md
+ * @license    https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/LICENSE.md
  * @link       https://github.com/GrahamCampbell/Laravel-Viewer
  */
 class ViewerServiceProvider extends ServiceProvider

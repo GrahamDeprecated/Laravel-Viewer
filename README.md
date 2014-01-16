@@ -3,8 +3,8 @@ Laravel Viewer
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/GrahamCampbell/Laravel-Viewer/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-[![Build Status](https://travis-ci.org/GrahamCampbell/Laravel-Viewer.png?branch=develop)](https://travis-ci.org/GrahamCampbell/Laravel-Viewer)
-[![Coverage Status](https://coveralls.io/repos/GrahamCampbell/Laravel-Viewer/badge.png?branch=develop)](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer)
+[![Build Status](https://travis-ci.org/GrahamCampbell/Laravel-Viewer.png)](https://travis-ci.org/GrahamCampbell/Laravel-Viewer)
+[![Coverage Status](https://coveralls.io/repos/GrahamCampbell/Laravel-Viewer/badge.png)](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer/badges/quality-score.png?s=4fd9b3b3b089dec1525c14e62d06aba785436bdd)](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer)
 [![Latest Version](https://poser.pugx.org/graham-campbell/viewer/v/stable.png)](https://packagist.org/packages/graham-campbell/viewer)
 [![Still Maintained](http://stillmaintained.com/GrahamCampbell/Laravel-Viewer.png)](http://stillmaintained.com/GrahamCampbell/Laravel-Viewer)
@@ -19,7 +19,7 @@ Laravel Viewer is a view workaround for [Laravel 4.1](http://laravel.com).
 * Laravel Viewer uses [Scrutinizer CI](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer) and [Coveralls](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer) to run additional tests and checks.  
 * Laravel Viewer uses [Composer](https://getcomposer.org) to load and manage dependencies.  
 * Laravel Viewer provides a [change log](https://github.com/GrahamCampbell/Laravel-Viewer/blob/develop/CHANGELOG.md), [releases](https://github.com/GrahamCampbell/Laravel-Viewer/releases), and a [wiki](https://github.com/GrahamCampbell/Laravel-Viewer/wiki).  
-* Laravel Viewer is licensed under the Apache License, available [here](https://github.com/GrahamCampbell/Laravel-Viewer/blob/develop/LICENSE.md).  
+* Laravel Viewer is licensed under the Apache License, available [here](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/LICENSE.md).  
 
 
 ## System Requirements
@@ -69,7 +69,7 @@ The first command is only necessary the first time. If you have issues merging, 
 
 You can then update the branch:  
 
-    git pull --rebase upstream develop
+    git pull --rebase upstream master
     git push --force origin <branch_name>
 
 Once it is set up, run `git mergetool`. Once all conflicts are fixed, run `git rebase --continue`, and `git push --force origin <branch_name>`.  
@@ -79,9 +79,8 @@ Once it is set up, run `git mergetool`. Once all conflicts are fixed, run `git r
 
 Please submit pull requests against the develop branch.  
 
-* Any pull requests made against the master branch will be closed immediately.  
-* If you plan to fix a bug, please create a branch called `fix-`, followed by an appropriate name.  
-* If you plan to add a feature, please create a branch called `feature-`, followed by an appropriate name.  
+* Bug fixes shouldn't be sent to the master branch unless they fix features that exist only in the upcoming release.  
+* Before sending a pull request for a new feature, you should first create an issue with [Proposal] in the title.  
 * Please follow the [PSR-2 Coding Style](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) and [PHP-FIG Naming Conventions](https://github.com/php-fig/fig-standards/blob/master/bylaws/002-psr-naming-conventions.md).  
 
 
