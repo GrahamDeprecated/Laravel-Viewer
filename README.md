@@ -6,8 +6,8 @@ Laravel Viewer
 [![Build Status](https://travis-ci.org/GrahamCampbell/Laravel-Viewer.png)](https://travis-ci.org/GrahamCampbell/Laravel-Viewer)
 [![Coverage Status](https://coveralls.io/repos/GrahamCampbell/Laravel-Viewer/badge.png)](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer/badges/quality-score.png?s=4fd9b3b3b089dec1525c14e62d06aba785436bdd)](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf/mini.png)](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf)
 [![Latest Version](https://poser.pugx.org/graham-campbell/viewer/v/stable.png)](https://packagist.org/packages/graham-campbell/viewer)
-[![Still Maintained](http://stillmaintained.com/GrahamCampbell/Laravel-Viewer.png)](http://stillmaintained.com/GrahamCampbell/Laravel-Viewer)
 
 
 ## What Is Laravel Viewer?
@@ -18,7 +18,7 @@ Laravel Viewer is a view workaround for [Laravel 4.1](http://laravel.com).
 * Laravel Viewer uses [Travis CI](https://travis-ci.org/GrahamCampbell/Laravel-Viewer) to run tests to check if it's working as it should.  
 * Laravel Viewer uses [Scrutinizer CI](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer) and [Coveralls](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer) to run additional tests and checks.  
 * Laravel Viewer uses [Composer](https://getcomposer.org) to load and manage dependencies.  
-* Laravel Viewer provides a [change log](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/CHANGELOG.md), [releases](https://github.com/GrahamCampbell/Laravel-Viewer/releases), and a [wiki](https://github.com/GrahamCampbell/Laravel-Viewer/wiki).  
+* Laravel Viewer provides a [change log](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/CHANGELOG.md), [releases](https://github.com/GrahamCampbell/Laravel-Viewer/releases), and [api docs](http://grahamcampbell.github.io/Laravel-Viewer).  
 * Laravel Viewer is licensed under the Apache License, available [here](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/LICENSE.md).  
 
 
@@ -79,7 +79,7 @@ Once it is set up, run `git mergetool`. Once all conflicts are fixed, run `git r
 
 Please review these guidelines before submitting any pull requests.  
 
-* Bug fixes shouldn't be sent to the master branch unless they fix features that exist only in the upcoming release.  
+* When submitting bug fixes, check if a maintenance branch exists for an older series, then pull against that older branch if the bug is present in it.  
 * Before sending a pull request for a new feature, you should first create an issue with [Proposal] in the title.  
 * Please follow the [PSR-2 Coding Style](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) and [PHP-FIG Naming Conventions](https://github.com/php-fig/fig-standards/blob/master/bylaws/002-psr-naming-conventions.md).  
 
