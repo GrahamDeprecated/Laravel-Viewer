@@ -15,8 +15,8 @@ Laravel Viewer
 Laravel Viewer is a view workaround for [Laravel 4.1](http://laravel.com).  
 
 * Laravel Viewer was created by, and is maintained by [Graham Campbell](https://github.com/GrahamCampbell).  
-* Laravel Viewer uses [Travis CI](https://travis-ci.org/GrahamCampbell/Laravel-Viewer) to run tests to check if it's working as it should.  
-* Laravel Viewer uses [Scrutinizer CI](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer) and [Coveralls](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer) to run additional tests and checks.  
+* Laravel Viewer uses [Travis CI](https://travis-ci.org/GrahamCampbell/Laravel-Viewer) with [Coveralls](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer) to check everything is working.  
+* Laravel Viewer uses [Scrutinizer CI](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer) and [SensioLabsInsight](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf) to run additional checks.  
 * Laravel Viewer uses [Composer](https://getcomposer.org) to load and manage dependencies.  
 * Laravel Viewer provides a [change log](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/CHANGELOG.md), [releases](https://github.com/GrahamCampbell/Laravel-Viewer/releases), and [api docs](http://grahamcampbell.github.io/Laravel-Viewer).  
 * Laravel Viewer is licensed under the Apache License, available [here](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/LICENSE.md).  
