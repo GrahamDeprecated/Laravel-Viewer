@@ -42,11 +42,11 @@ You'll then need to run `composer install` or `composer update` to download it a
 
 Once Laravel Viewer is installed, you need to register the service provider. Open up `app/config/app.php` and add the following to the `providers` key.
 
-`'GrahamCampbell\Viewer\ViewerServiceProvider'`
+* `'GrahamCampbell\Viewer\ViewerServiceProvider'`
 
 You can register the Viewer facade in the `aliases` key of your `app/config/app.php` file if you like.
 
-`'Viewer' => 'GrahamCampbell\Viewer\Facades\Viewer'`
+* `'Viewer' => 'GrahamCampbell\Viewer\Facades\Viewer'`
 
 
 ## Configuration
