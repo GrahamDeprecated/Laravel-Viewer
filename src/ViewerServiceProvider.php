@@ -43,7 +43,7 @@ class ViewerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('graham-campbell/viewer');
+        $this->package('graham-campbell/viewer', 'graham-campbell/viewer', __DIR__);
     }
 
     /**
