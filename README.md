@@ -25,7 +25,7 @@ Laravel Viewer is a view workaround for [Laravel 4.1](http://laravel.com).
 
 ## System Requirements
 
-* PHP 5.4.7+ or PHP 5.5+ is required.
+* PHP PHP 5.4.7+ or HHVM 2.4+ is required.
 * You will need [Laravel 4.1](http://laravel.com) because this package is designed for it.
 * You will need [Composer](https://getcomposer.org) installed to load the dependencies of Laravel Viewer.
 
@@ -34,7 +34,7 @@ Laravel Viewer is a view workaround for [Laravel 4.1](http://laravel.com).
 
 Please check the system requirements before installing Laravel Viewer.
 
-To get the latest version of Laravel Viewer, simply require `"graham-campbell/viewer": "0.1.*@alpha"` in your `composer.json` file. You'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
+To get the latest version of Laravel Viewer, simply require `"graham-campbell/viewer": "0.2.*@dev"` in your `composer.json` file. You'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
 
 Once Laravel Viewer is installed, you need to register the service provider. Open up `app/config/app.php` and add the following to the `providers` key.
 
@@ -55,7 +55,7 @@ Laravel Viewer requires no configuration. Just follow the simple install instruc
 There is currently no usage documentation besides the [API Documentation](http://grahamcampbell.github.io/Laravel-Viewer
 ) for Laravel Viewer.
 
-You may see an example of implementation in [Laravel Navigation](https://github.com/GrahamCampbell/Laravel-Navigation) or [CMS Core](https://github.com/GrahamCampbell/CMS-Core).
+You may see an example of implementation in [Laravel Navigation](https://github.com/GrahamCampbell/Laravel-Navigation) or [Bootstrap CMS](https://github.com/GrahamCampbell/Bootstrap-CMS).
 
 
 ## Updating Your Fork
