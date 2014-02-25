@@ -2,13 +2,13 @@ Laravel Viewer
 ==============
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/GrahamCampbell/Laravel-Viewer/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 [![Build Status](https://travis-ci.org/GrahamCampbell/Laravel-Viewer.png)](https://travis-ci.org/GrahamCampbell/Laravel-Viewer)
 [![Coverage Status](https://coveralls.io/repos/GrahamCampbell/Laravel-Viewer/badge.png)](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer/badges/quality-score.png?s=4fd9b3b3b089dec1525c14e62d06aba785436bdd)](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf/mini.png)](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf)
 [![Software License](https://poser.pugx.org/graham-campbell/viewer/license.png)](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/LICENSE.md)
 [![Latest Version](https://poser.pugx.org/graham-campbell/viewer/v/stable.png)](https://packagist.org/packages/graham-campbell/viewer)
+[![Still Maintained](http://stillmaintained.com/GrahamCampbell/Laravel-Viewer.png)](http://stillmaintained.com/GrahamCampbell/Laravel-Viewer)
 
 
 ## What Is Laravel Viewer?
