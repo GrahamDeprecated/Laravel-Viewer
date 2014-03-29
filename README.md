@@ -5,7 +5,7 @@ Laravel Viewer
 [![Build Status](https://img.shields.io/travis/GrahamCampbell/Laravel-Viewer/master.svg)](https://travis-ci.org/GrahamCampbell/Laravel-Viewer)
 [![Coverage Status](https://img.shields.io/coveralls/GrahamCampbell/Laravel-Viewer/master.svg)](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer)
 [![Software License](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/LICENSE.md)
-[![Latest Version](https://img.shields.io/github/tag/GrahamCampbell/Laravel-Viewer.svg)](https://github.com/GrahamCampbell/Laravel-Viewer/releases)
+[![Latest Version](https://img.shields.io/github/release/GrahamCampbell/Laravel-Viewer.svg)](https://github.com/GrahamCampbell/Laravel-Viewer/releases)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer/badges/quality-score.png?s=4fd9b3b3b089dec1525c14e62d06aba785436bdd)](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf/mini.png)](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf)
 
