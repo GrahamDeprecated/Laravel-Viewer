@@ -2,13 +2,12 @@ Laravel Viewer
 ==============
 
 
-[![Build Status](https://travis-ci.org/GrahamCampbell/Laravel-Viewer.png)](https://travis-ci.org/GrahamCampbell/Laravel-Viewer)
-[![Coverage Status](https://coveralls.io/repos/GrahamCampbell/Laravel-Viewer/badge.png)](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer)
+[![Build Status](https://img.shields.io/travis/GrahamCampbell/Laravel-Viewer/master.svg)](https://travis-ci.org/GrahamCampbell/Laravel-Viewer)
+[![Coverage Status](https://img.shields.io/coveralls/GrahamCampbell/Laravel-Viewer/master.svg)](https://coveralls.io/r/GrahamCampbell/Laravel-Viewer)
+[![Software License](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/LICENSE.md)
+[![Latest Version](https://img.shields.io/github/tag/GrahamCampbell/Laravel-Viewer.svg)](https://github.com/GrahamCampbell/Laravel-Viewer/releases)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer/badges/quality-score.png?s=4fd9b3b3b089dec1525c14e62d06aba785436bdd)](https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Viewer)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf/mini.png)](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf)
-[![Software License](https://poser.pugx.org/graham-campbell/viewer/license.png)](https://github.com/GrahamCampbell/Laravel-Viewer/blob/master/LICENSE.md)
-[![Latest Version](https://poser.pugx.org/graham-campbell/viewer/v/stable.png)](https://packagist.org/packages/graham-campbell/viewer)
-[![Still Maintained](http://stillmaintained.com/GrahamCampbell/Laravel-Viewer.png)](http://stillmaintained.com/GrahamCampbell/Laravel-Viewer)
 
 
 ## What Is Laravel Viewer?
@@ -25,7 +24,7 @@ Laravel Viewer is a view workaround for [Laravel 4.1](http://laravel.com).
 
 ## System Requirements
 
-* PHP 5.4.7+ or HHVM 2.4+ is required.
+* PHP 5.4.7+ or HHVM 3.0+ is required.
 * You will need [Laravel 4.1](http://laravel.com) because this package is designed for it.
 * You will need [Composer](https://getcomposer.org) installed to load the dependencies of Laravel Viewer.
 
