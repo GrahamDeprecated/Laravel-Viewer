@@ -12,7 +12,7 @@ Laravel Viewer
 
 ## WARNING
 
-#### This package will depreciated soon. The final release will be V0.2 Alpha. Replacement classes will be provided in my [Laravel Core(https://github.com/GrahamCampbell/Laravel-Core) package.
+#### This package will depreciated soon. The final release will be V0.2 Alpha. Replacement classes will be provided by my [Laravel Core](https://github.com/GrahamCampbell/Laravel-Core) package.
 
 
 ## What Is Laravel Viewer?
