@@ -10,6 +10,11 @@ Laravel Viewer
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf/mini.png)](https://insight.sensiolabs.com/projects/04eb190d-28d1-47c5-94e0-1e47c3bc84bf)
 
 
+## WARNING
+
+#### This package will depreciated soon. The final release will be V0.2 Alpha. Replacement classes will be provided in my [Laravel Core(https://github.com/GrahamCampbell/Laravel-Core) package.
+
+
 ## What Is Laravel Viewer?
 
 Laravel Viewer is a view workaround for [Laravel 4.1](http://laravel.com).
