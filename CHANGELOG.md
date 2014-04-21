@@ -2,7 +2,7 @@ CHANGE LOG
 ==========
 
 
-## V0.2 Alpha (Upcoming)
+## V0.2 Alpha (21/04/2014)
 
 * PHP 5.6 and HHVM compatibility
 * Composer tweaks

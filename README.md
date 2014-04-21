@@ -12,7 +12,7 @@ Laravel Viewer
 
 ## WARNING
 
-#### This package will depreciated soon. The final release will be V0.2 Alpha.
+#### This package is depreciated, and is no longer maintained.
 
 
 ## What Is Laravel Viewer?
@@ -38,7 +38,7 @@ Laravel Viewer is a view workaround for [Laravel 4.1](http://laravel.com).
 
 Please check the system requirements before installing Laravel Viewer.
 
-To get the latest version of Laravel Viewer, simply require `"graham-campbell/viewer": "0.2.*@dev"` in your `composer.json` file. You'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
+To get the latest version of Laravel Viewer, simply require `"graham-campbell/viewer": "0.2.*@alpha"` in your `composer.json` file. You'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
 
 Once Laravel Viewer is installed, you need to register the service provider. Open up `app/config/app.php` and add the following to the `providers` key.
 
